@@ -1,0 +1,90 @@
+#index 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Level 2</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header>
+        <div id="navbar">
+            <a href="#" id="logo">amazon.in</a>
+            <a href="#">Account</a>
+            <a href="#">My Cart</a>
+            <a href="#">Contact Us</a>
+            <input placeholder="search Amazon.in">
+            <button>Search</button>
+        </div>
+    </header>
+    <div id="content">
+        <div class="contentBox" style="background-color: rgba(145,10,95);"> Buy Your Fevorite Shoes</div>
+        <div class="contentBox" style="background-color: rgba(10,10,95);"> Buy Your Fevorite Shampoo</div>
+        <div class="contentBox" style="background-color: rgba(205,40,30);"> Buy yYour Fevorite Headphones</div>
+    </div>
+    <footer>© 1996-2023, Amazon.com, Inc. or its affiliates</footer>
+</body>
+
+
+
+#style
+
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+#navbar {
+    height: 60px;
+    background-color: #0f1111;
+}
+
+button {
+    background-color: #f08804;
+}
+
+#logo {
+    margin-left: 2px;
+    font-size: 25px;
+    color: #f08804;
+}
+
+input {
+    margin-left: 200px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin-right: 200px;
+    
+}
+
+button {
+    background-color: #f08804;
+    color: white;
+}
+
+
+.contentBox {
+    height: 80px;
+    width: 80px;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+#content {
+    height: 600px;
+}
+
+footer {
+    background-color: #0f1111;
+    color: white;
+    text-align: center;
+}
+</html>
